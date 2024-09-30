@@ -1,0 +1,146 @@
+<!-- index.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechKnights Association</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+</head>
+
+<body>
+
+    <!-- header section -->
+    <header>
+        <h1>TechKnights Association</h1>
+        <p>presents</p>
+        <ul>
+            <li><a href="#about">ABOUT US</a></li>
+            <li><a href="#event">EVENT</a></li>
+            <li><a href="#register">REGISTER</a></li>
+        </ul>
+    </header>
+
+    <!-- about section -->
+    <div id="about">
+        <h2>about us</h2>
+        <p>department of computer science and business systems
+            presenting international level symposium on 5th october, 2024
+            "towen gen3"</p>
+        <p>we have planned to conduct technical event as well as non technical event with exciting prizes!!</p>
+        <div class="line">techKnights association welcomes you to explore a new horizons >>></div>
+        <div class="social-icons">
+            <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+        <div class="event-details">
+            <div><i class="fa-regular fa-calendar-days"></i> 05/10/2024</div>
+            <div><i class="fa fa-clock"></i> 9:00am - 4:00pm</div>
+        </div>
+    </div>
+
+    <!-- event section -->
+    <div id="event">
+        <h2>fronend mentor</h2>
+        <p>unlock and elevate your frontend skills</p>
+        <div class="event-description">
+            <div class="set-width1">"frontend mentor is an exciting event for developers,</div>
+            <div class="set-width2"> where they need to code a given web design page using html,css and javascript."
+            </div>
+        </div>
+    </div>
+
+    <!-- register section -->
+    <div id="register">
+        <div class="form-section">
+            <form action="#">
+                <h2>register here:</h2>
+                <p>fill this form</p>
+                <div class="text-inputs">
+                    <label for="name">name</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">email</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="contact">contact number</label>
+                    <input type="tel" id="contact" name="contact" required>
+
+                    <label for="college">college</label>
+                    <input type="text" id="college" name="college" required>
+
+                    <label for="college">dept</label>
+                    <input type="text" id="college" name="college" required>
+                </div>
+
+                <div class="flex">
+                    <label for="year" class="big">year</label>
+                    <div class="radio-group">
+                        <input type="radio" name="year" value="first">
+                        <label for="first">1st</label>
+                    </div>
+                    <div class="radio-group">
+                        <input type="radio" name="year" value="second">
+                        <label for="second">2nd</label>
+                    </div>
+                    <div class="radio-group">
+                        <input type="radio" name="year" value="third">
+                        <label for="third">3rd</label>
+                    </div>
+                    <div class="radio-group">
+                        <input type="radio" name="year" value="fourth">
+                        <label for="fourth">4th</label>
+                    </div>
+                </div>
+
+                <div class="flex">
+                    <label for="gender" class="big">gender</label>
+                    <div class="radio-group">
+                        <input type="radio" name="gender" value="male">
+                        <label for="male">Male</label>
+                    </div>
+
+                    <div class="radio-group">
+                        <input type="radio" name="gender" value="female">
+                        <label for="female">Female</label>
+                    </div>
+                </div>
+
+                <div class="flex">
+                    <label for="dob" class="big">dob</label>
+                    <input type="date" id="dob" name="dob" placeholder="Dd-Mm-Yyyy" required>
+                </div>
+
+                <div class="flex">
+                    <label for="skills" class="big">skills</label>
+                    <div class="check">
+                        <input type="checkbox">
+                        <label for="html">HTML</label>
+                    </div>
+                    <div class="check">
+                        <input type="checkbox">
+                        <label for="css">CSS</label>
+                    </div>
+                    <div class="check">
+                        <input type="checkbox">
+                        <label for="javascript">JavaScript</label>
+                    </div>
+                </div>
+
+                <label for="reason" class="big">why joining this event?</label>
+                <textarea id="reason" name="reason" rows="10" placeholder="Reason For Joining This Event"></textarea>
+
+                <button id="btn" type="submit">Submit</button>
+
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>
